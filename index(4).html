@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members</title>
+    <style>
+    h1{
+        text-align: center;
+    }
+    #wrapper div,#wrapper h2{
+display:flex;
+justify-content: center;
+
+}
+
+h2{
+color:#ffeba7;
+letter-spacing: 1px;
+padding: top 5cm;
+
+}
+input[type=text], input[type=password] {
+    
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input:active{
+border:none;
+}
+#wrapper{
+height:300px;
+width:450px;
+margin:100px auto;
+background-color: aliceblue;
+border-radius:10px;
+text-align: center;
+padding-left: 2%;
+padding-right: 2%;
+padding-top: 5%;
+}
+
+button{
+margin-top:20px;
+background-color:#0f0e0b;
+border-radius: 4px;
+height: 44px;
+font-weight: 600;
+padding: 0 30px;
+letter-spacing: 1px;
+border: none;
+background-color: #ffeba7;
+color: #102770;
+}
+h1{
+    border: #0f0e0b;
+}
+body{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/57e14c4215d5dbdafb685b88/1651930397145-7DCY9AK33YEWH6Z1BVFQ/Library+photo.jpg?format=1000w);
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+    <h1 style="color:cornsilk;">Library Members</h1>
+    <div id="wrapper">
+        <label for="uname">Username</label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <br>
+        <label for="uname id">User ID</label>
+        <input type="text" placeholder="Enter Username ID" name="uname id" required>
+        <br>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">submit</button>
+      </div>
+</body>
+</html>

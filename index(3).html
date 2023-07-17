@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transation Page</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+        }
+        #wrapper div,#wrapper h2{
+    display:flex;
+    justify-content: center;
+    
+}
+
+h2{
+    color:#ffeba7;
+    letter-spacing: 1px;
+    padding: top 5cm;
+    
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top:30px;
+  height:2em;
+  width:250px;
+}
+
+input:active{
+    border:none;
+}
+#wrapper{
+    height:400px;
+    width:400px;
+    margin:100px auto;
+    background-color: aliceblue;
+    border-radius:10px;
+    text-align: center;
+    padding-left: 2%;
+}
+
+button{
+    margin-top:20px;
+    background-color:#0f0e0b;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: #ffeba7;
+    color: #102770;
+}
+h2{
+    box-sizing: border-box;
+    text-align:center;
+}
+p{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <h1 style="color: black;">Book Transation</h1>
+    <div id="wrapper">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <br>
+        <label for="uname id"><b>Username ID</b></label>
+        <input type="text" placeholder="Enter Username ID" name="uname id" required>
+        <br>
+        <label for="book"><b>Enter Your Book</b></label>
+        <input type="text" placeholder="Enter Book" name="Book" required>
+        <br>
+        <label for="id"><b>Enter Your Book ID</b></label>
+        <input type="text" placeholder="Enter Book id" name="Book id" required>
+        <br>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">submit</button>
+      </div>
+      <meta charset="UTF-8">
+      <h2 style="color: crimson;">Late Submition &#8987;</h2>
+      <p style="color: #0f0e0b;">For one day pay amount RS.5</p>
+</body>
+</html>
